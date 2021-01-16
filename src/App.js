@@ -1,8 +1,6 @@
 import './App.css';
 import image from './image.jpg';
 import Button from '@material-ui/core/Button';
-import card from './card';
-import { useState } from 'react';
 
 function App() {
   return (
@@ -20,7 +18,6 @@ function App() {
             <div className="middleButtons">
               <Button>Glass</Button>
               <Button className="middleButtonsf">
-                {' '}
                 Card
               </Button>
             </div>
